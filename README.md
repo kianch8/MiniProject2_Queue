@@ -11,13 +11,13 @@ The queue uses a fixed-size circular array.
 The queue supports standard functions such as enqueue, dequeue, peek, size check, print, and clearing the queue.
 
 ## Class Features  
-- enqueue()     <!-- Adds a new element to the back (rear) of the queue             -->
-- dequeue()     <!-- Removes and returns the element at the front of the queue      -->
-- peek()        <!-- Returns the element at the front without removing it           -->
-- isEmpty()     <!-- Returns true if the queue has no elements; otherwise false     -->
-- isFull()      <!-- Returns true if the queue has reached its maximum size         -->
-- size()        <!-- Returns the number of elements currently stored in the queue   -->
-- clear()       <!-- Removes all elements from the queue                            -->
+- enqueue()     — Adds a new element to the back (rear) of the queue             
+- dequeue()     — Removes and returns the element at the front of the queue      
+- peek()        — Returns the element at the front without removing it           
+- isEmpty()     — Returns true if the queue has no elements; otherwise false     
+- isFull()      — Returns true if the queue has reached its maximum size         
+- size()        — Returns the number of elements currently stored in the queue   
+- clear()       — Removes all elements from the queue                            
 
 ## Debug and Compile (using g++)
 `g++ Queue.cpp main.cpp -o Queue`
